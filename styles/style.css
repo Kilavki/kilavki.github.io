@@ -43,3 +43,58 @@ ul {
 nav {
 	margin-top: 20px;
 }
+
+.top-slide {
+	padding-top: 120px;
+	padding-bottom: 280px;
+	background: url(../img/top-slider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.top-container {
+	width: 85%;
+	margin: 0 auto;
+}
+.top-slide h2 {
+	background-color: #ffea00;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+.top-container :nth-child(2) {
+	margin-bottom: 10px;
+}
+.top-slide p {
+	font-size: 24px;
+	background-color: #414146;
+	display: inline;
+	color: #ffffff;
+	padding: 0 4px;
+}
+
+.specialize-container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.specialize-container h3 {
+	font-size: 36px;
+}
+.specialize-container p {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+
+.first-p {
+	font-size: 20px;
+	color: #ffffff;
+}
+.bottomcard {
+	background-color: #414146;
+
+}
+.specialize-card {
+	display: flex;
+	justify-content: space-between;
+}
