@@ -13,6 +13,13 @@ li {
 a {
 	 text-decoration: none;
  }
+.element-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 
  header {
 	background: #f6f6f6;
@@ -94,33 +101,35 @@ nav {
 .card-top {
 	height:auto;
 	min-height: 208px;
-	background-color: #ffea00
+	background-color: #ffea00;
 }
-.card-top_img {
-	max-height: 150px;
-	overflow-y: hidden;
-}
+
+
 .card-top_img.active {
 	overflow: visible;
 }
+
 .card-top_txt {
 	letter-spacing: 0.1em;
-
+	font-size: 14px;
 }
 .card-top_txt.active {
 	display: none;
+	font-size: 20px;
+}
+.h1-card {
+	position: relative;
+	top: 18px;
 }
 
 .card-bottom {
-	position: relative;
 	min-height: 78px;
 	background-color: #414146;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 14px;
 }
-.card-bottom_txt {
-	display: flex;
-	justify-content: center;
+.card-bottom.active {
+font-size: 20px;
 }
 
 .specialize-cards {
