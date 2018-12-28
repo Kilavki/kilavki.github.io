@@ -138,10 +138,39 @@ font-size: 20px;
 	
 }
 
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
 
+.portfolio h4 {
+	background-color: #424147;
+	color: #ffea00;
+	font-size: 18px;
+	padding: 0 8px;
+	display: inline-block;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.portfolio p {
+	font-size: 16px;
+	color: #424146;
+}
 
-
-
+.toggles button {
+	border: none;
+	color: #424146;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20px 5px;
+}
+.toggles button::after {
+	content: ' / ';
+}
+.toggles button:last-child::after {
+	content: '';
+}
 
 
 
