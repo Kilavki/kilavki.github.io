@@ -172,6 +172,28 @@ font-size: 20px;
 	content: '';
 }
 
+.posts {
+	width: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 420px) {
