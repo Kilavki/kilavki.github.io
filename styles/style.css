@@ -143,7 +143,6 @@ font-size: 20px;
 	margin: 0 auto;
 	text-align: center;
 }
-
 .portfolio h4 {
 	background-color: #424147;
 	color: #ffea00;
@@ -179,6 +178,24 @@ font-size: 20px;
 	grid-template-columns: auto auto auto auto;
 }
 
+.brand-slider {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.brand-slider h4 {
+	background-color: #424147;
+	color: #ffea00;
+	font-size: 18px;
+	padding: 0 8px;
+	display: inline-block;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.brand-slider p {
+	font-size: 16px;
+	color: #424146;
+}
 
 
 
@@ -242,4 +259,50 @@ font-size: 20px;
 		top: 30px;
 		right: 115px;
 	}
+
+	.top-slide {
+		padding-top: 40px;
+		padding-bottom: 40px;
+}
+
+	.top-slide h2 {
+		display: inline;
+		font-size: 28px;
+		padding: 0 13px;
+}
+
+	.top-slide p {
+		font-size: 16px;
+}
+
+	.specialize-container h3 {
+		margin-top: 26px;
+		font-size: 28px;
+	}
+	.specialize-container h3 + p {
+		margin-bottom: 26px;
+		font-size: 16px;
+	}
+	.specialize-cards {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+}
+	.card-bottom {
+		width: 250px;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+
+	.posts {
+		grid-template-columns: auto;
+	}
+	
+	.portfolio h4,
+	.brand-slider h4
+	 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
 }

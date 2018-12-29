@@ -11,3 +11,19 @@ $(function() {
 		$('.post').show(500);
 	});
 });
+
+
+$(document).ready(function(){
+	$(".owl-carousel").owlCarousel({
+		items:8,
+		loop: true,
+		center: true,
+		stagePadding: 10,
+	});
+});
+
+if($(window).width() < 420) {
+	$(".owl-carousel").owlCarousel({
+		items:3
+	});
+}
