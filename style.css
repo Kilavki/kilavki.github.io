@@ -1,0 +1,17 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(min(100% - 2rem, 1200px));
+	margin-inline: auto;
+	/* border: 1px solid limegreen; */
+}
+
+.h1 {
+	font-size: 72px;
+	color: #c5c5c5;
+}
